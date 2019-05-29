@@ -6,14 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <title>Marked Previewer</title>
+    <script src="code.js"></script>
+
+
 </head>
 
 <body>
 
+    <div id="preview"></div>
+
+    <!-- <script>
+        document.getElementById('preview').innerHTML = marked('# Marked in browser\n\nRendered by **marked**.');
+    </script>
+-->
     <textarea id="editor" name="text-editor" id="" cols="30" rows="10"></textarea>
 
-    <div id="preview"></div>
+
 
 
 </body>
